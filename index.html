@@ -2,8 +2,47 @@
 <html>
    <head>
       <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Your Name</title>
-      <style> body { font-family: monospace; background-color: #fff; color: #000; padding: 2rem; line-height: 1.5; } h1, h2, h3 { font-weight: bold; } ul { list-style-type: disc; padding-left: 1.5rem; } a { color: #000; text-decoration: underline; } </style>
+      <style>
+         body {
+            font-family: monospace;
+            background-color: #fff;
+            color: #000;
+            padding: 2rem;
+            line-height: 1.5;
+            font-size: 16px;
+         }
+
+         h1, h2, h3 {
+            font-weight: bold;
+         }
+
+         ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+         }
+
+         a {
+            color: #000;
+            text-decoration: underline;
+         }
+
+         @media (max-width: 767px) {
+            body {
+               padding: 1rem;
+               font-size: 14px;
+            }
+
+            h1, h2, h3 {
+               font-size: 1.2rem;
+            }
+
+            ul {
+               padding-left: 1rem;
+            }
+         }
+      </style>
    </head>
    <body>
       <h3><strong>About Me</strong></h3>
